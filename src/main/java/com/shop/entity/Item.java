@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 @Table(name = "item")
 @Data
 @ToString
-public class item {
+public class Item {
     @Id
     @Column(name="item_id")
     @GeneratedValue(strategy = GenerationType.AUTO)
